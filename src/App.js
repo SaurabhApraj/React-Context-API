@@ -9,7 +9,8 @@ const App = () => {
   const [nums, setNums] = useState(0);
 
   useEffect(() => {
-    alert("clicked");
+    // alert("clicked");
+    document.title = `${num}`;
   }, [num]);
 
   return (
